@@ -1,9 +1,12 @@
 # PCA-EXP-5-MATRIX-MULTIPLICATION-USING-CUDA-AY-25-26
 ENTER YOUR NAME : Yuuvasri R
+
 ENTER YOUR REGISTER NO. : 212225230313
+
 EX. NO : 05
 
 MATRIX MULTIPLICATION USING CUDA
+
 Implement Matrix Multiplication using GPU.
 
 AIM:
@@ -14,17 +17,29 @@ Hardware – PCs with NVIDIA GPU & CUDA NVCC Google Colab with NVCC Compiler
 
 # PROCEDURE:
 Define Constants: Define the size of the matrices (SIZE) and the size of the CUDA blocks (BLOCK_SIZE).
+
 Kernel Function: Define a CUDA kernel function matrixMultiply that performs the matrix multiplication.
+
 In the main function, perform the following steps:
+
 Initialize Matrices: Initialize the input matrices ‘a’ and ‘b’ with some values.
+
 Allocate Device Memory: Allocate memory on the GPU for the input matrices ‘a’ and ‘b’, and the output matrix ‘c’.
+
 Copy Matrices to Device: Copy the input matrices from host (CPU) memory to device (GPU) memory.
+
 Set Grid and Block Sizes: Set the grid and block sizes for the CUDA kernel launch.
+
 Start Timer: Start a timer to measure the execution time of the kernel.
+
 Launch Kernel: Launch the matrixMultiply kernel with the appropriate grid and block sizes, and the input and output matrices as arguments.
+
 Copy Result to Host: After the kernel execution, copy the result matrix from device memory to host memory.
+
 Stop Timer: Stop the timer and calculate the elapsed time.
+
 Print Result: Print the result matrix and the elapsed time.
+
 Free Device Memory: Finally, free the device memory that was allocated for the matrices.
 
 # PROGRAM:

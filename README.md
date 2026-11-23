@@ -216,5 +216,11 @@ int main()
 ```
 # OUTPUT:
 
+<img width="1257" height="675" alt="Screenshot 2026-11-23 203733" src="https://github.com/user-attachments/assets/3c58dbee-ad0a-45ef-9a6d-bc7db988956f" />
+
+<img width="1507" height="632" alt="Screenshot 2026-11-23 203955" src="https://github.com/user-attachments/assets/202c54d9-19da-406f-9a1e-f32862c2ca17" />
+
+<img width="1136" height="77" alt="image" src="https://github.com/user-attachments/assets/963c5a4e-c688-4252-8903-16b605a3fb83" />
+
 # RESULT:
-Thus the program has been executed by using CUDA to mulptiply two matrices. It is observed that there are variations in host and device elapsed time. Device took 0167 seconds.
+Thus the program has been executed by using CUDA to mulptiply two matrices. It is observed that there are variations in host and device elapsed time. Device took 0.001004 seconds.
